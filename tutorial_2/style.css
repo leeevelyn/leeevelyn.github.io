@@ -79,6 +79,7 @@ body {
    Connect each section to its named area
    =========================================== */
 
+   /*plswork*/
 .site-header {
   grid-area: head;
   background: var(--color-surface);
