@@ -20,16 +20,16 @@
   --spacing-xl: 2rem;
   
   /* Colors - customize these */
-  --color-bg: hsl(210, 20%, 98%);
-  --color-surface: hsl(0, 0%, 100%);
+  --color-bg: hsl(244, 73%, 91%);
+  --color-surface: hsl(243, 100%, 89%);
   --color-text: hsl(210, 10%, 20%);
   --color-text-muted: hsl(210, 10%, 50%);
-  --color-accent: hsl(220, 80%, 50%);
-  --color-border: hsla(210, 10%, 20%, 0.1);
+  --color-accent: hwb(243 4% 19% / 0.979);
+  --color-border: hsl(48, 65%, 49%);
   
   /* Typography */
-  --font-body: 'Inter', system-ui, sans-serif;
-  --font-display: 'Inter', system-ui, sans-serif; /* Change this */
+  --font-body: 'Lucida Console', "Courier New", monospace;
+  --font-display: 'Arial', Helvetica, sans-serif;
 }
 
 /* Reset */
@@ -58,13 +58,21 @@ body {
 
 .page-layout {
   display: grid;
-  /* YOUR CODE: grid-template-areas */
-  /* YOUR CODE: grid-template-columns */
-  /* YOUR CODE: grid-template-rows */
+  grid-template-areas: 
+  "head"
+  "hero"
+  "list"
+  "foot";
+  grid-template-columns: 1fr;
+  grid-template-rows: 7% 30% 1fr 7%; /* FOR ME TO FIX */
   min-height: 100vh;
   gap: var(--spacing-md);
 }
-
+.hero-section {
+  display: grid;
+  justify-content: center;
+  gap: 0px;
+}
 /* ===========================================
    TASK 2: ASSIGN GRID AREAS
    
@@ -72,24 +80,26 @@ body {
    =========================================== */
 
 .site-header {
-  /* YOUR CODE: grid-area */
+  grid-area: head;
   background: var(--color-surface);
   padding: var(--spacing-md) var(--spacing-lg);
   border-bottom: 1px solid var(--color-border);
+  
 }
 
 .hero-section {
-  /* YOUR CODE: grid-area */
+  grid-area: hero;
   padding: var(--spacing-xl);
+  grid-auto-columns: auto;
 }
 
 .list-section {
-  /* YOUR CODE: grid-area */
+  grid-area: list;
   padding: var(--spacing-lg);
 }
 
 .site-footer {
-  /* YOUR CODE: grid-area */
+  grid-area: foot;
   background: var(--color-text);
   color: var(--color-bg);
   padding: var(--spacing-lg);
@@ -117,15 +127,58 @@ body {
 
 /* Make list items flow horizontally on large screens */
 .list-section {
+  display: flex;
+  padding: 3%;
+  gap: 13px;
+  flex-wrap: wrap;
+  justify-content: center;
   /* YOUR CODE: display flex, gap, wrap behavior */
 }
 
 .list-item {
+  display: flex;
   background: var(--color-surface);
   padding: var(--spacing-lg);
-  border-radius: 0.5rem;
+  border-radius: 0.5rem; 
   border: 1px solid var(--color-border);
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow: auto;
+  position: relative;
+  height: 200px;
+  max-width: 700px;
+  min-width: 450px;
+  align-items: flex-start;
   /* YOUR CODE: flex-basis or width for sizing */
+}
+
+.inside {
+  display: flex;
+  max-height: 150px; 
+  padding-left: 5px;
+}
+
+.img {
+  width:150px;
+  height:150px;
+}
+
+.title-date {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.all-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.copy {
+  display: flex;
 }
 
 /* ===========================================
@@ -138,15 +191,31 @@ body {
 
 @media (max-width: 48rem) {
   .page-layout {
+    display: grid;
+    grid-template-areas:
+    "head"
+    "hero"
+    "list"
+    "foot";
+    grid-template-columns: 1fr;
+    padding: 2px;
     /* YOUR CODE: redefine grid-template-areas */
     /* YOUR CODE: single column layout */
   }
   
   .list-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
     /* YOUR CODE: change flex-direction if needed */
   }
   
   .list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     /* YOUR CODE: full width on mobile */
   }
 }
@@ -170,4 +239,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.feb {
+  margin-top: -20px;
 }
