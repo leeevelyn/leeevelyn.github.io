@@ -1,0 +1,133 @@
+/* INTENTIONALLY UGLY STARTER STYLES */
+/* These styles are very, very ugly. */
+/* Time to make them attractive, legible, and usable */
+
+.page-layout {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "meta desc"
+    "ingredients ingredients"
+    "instructions instructions"
+    "footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 7% 30% 1fr 1fr 7%;
+}
+
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: #102542;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-container {
+    background-color: #F0F7EE;
+    border: 10px solid #3C787E;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-header {
+    grid-area: header;
+    background-color: #F0F7EE;
+    grid-template-columns: 1fr, 1fr;
+    /*
+    align-items: center;
+    flex-direction: column-reverse; */
+
+}
+
+.recipe-image {
+    width: 400px;
+    height: auto;
+    border: 5px solid #3C787E;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.recipe-title {
+    color: black;
+    font-size: 40px;
+}
+
+.description-and-meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.recipe-meta {
+    grid-area: meta;
+    background-color: #F0F7EE;
+    border: 2px dashed #3C787E;
+    min-width: 30%;
+    padding: 2em;
+    font-size: 20px;
+    /*
+    flex-direction: column-reverse;
+    justify-content: center; */
+}
+/*
+.meta-item {
+    display: flex;
+    flex-direction: column;
+}
+*/
+.recipe-description {
+    grid-area: desc;
+    background-color:#F0F7EE;
+    font-size: 20px;
+    color: black;
+    padding: 2em;
+    font-size: 20px;
+}
+
+.ingredients-section {
+    grid-area: ingredients;
+    background-color: #F0F7EE;
+    border: 5px solid #3C787E;
+    /*
+    flex-direction: column;
+    flex-wrap: wrap;*/
+}
+
+.ingredients-list {
+    list-style-position: inside;
+    list-style-type: circle;
+    line-height: 100%;
+}
+
+.ingredients-list li {
+    background-color: #F0F7EE;
+    border: 1px solid #3C787E;
+    margin: 2px;
+    padding: 1px;
+}
+
+.instructions-section {
+    grid-area: instructions;
+    background-color: #F0F7EE;
+    border: 3px solid #3C787E;
+}
+
+.instruction-step {
+    background-color: #F0F7EE;
+    border: 2px solid #3C787E;
+    margin: 3px;
+}
+
+.recipe-footer {
+    grid-area: footer;
+    background-color: #F0F7EE;
+    text-align: right;
+    font-size: 6px;
+}
+
+* {
+    margin: 2px;
+    padding: 1px;
+}
