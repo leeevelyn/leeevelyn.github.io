@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     
     // Goal: Display all restaurants in the list area
     // forEach is like Tutorial 4's single element work, but for ALL items
-    
+
     const displayButton = document.querySelector('#display-button');
     const restaurantList = document.querySelector('#restaurant-list');
     
@@ -124,7 +124,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Hint: Use restaurantList.innerHTML += to add each one
         
         // YOUR CODE HERE:
-        
+        restaurants.forEach((restaurant) => {
+            restaurantList.innerHTML += `<div>${restaurant.name} - ${restaurant.cuisine}</div>`
+        })
         
         console.log('Displayed all restaurants using forEach');
     });
@@ -148,7 +150,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Hint: Use forEach on the cheapRestaurants array
         
         // YOUR CODE HERE:
+        const cheapRestaurants = restaurants.filter((restaurant) =>{ 
+            return restaurant.priceRange === "$" || restaurant.priceRange === "$$"; 
+        })
         
+        filteredList.innerHTML = '';
+        
+        cheapRestaurants.forEach((restaurant) => {
+            filteredList.innerHTML += `<div>${restaurant.name}</div>`
+        })    
         
         console.log('Showed cheap restaurants using filter');
     });
@@ -172,7 +182,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Hint: You can use forEach on the names array, or join() method
         
         // YOUR CODE HERE:
-        
+        const restaurant = restaurants.map((restaurant, index) =>{ 
+            return mappedList.innerHTML += `<ul> <li> ${restaurant.name} </li> </ul>`; 
+        })
         
         console.log('Showed restaurant names using map');
     });
@@ -197,7 +209,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Hint: Show the name, cuisine, and rating
         
         // YOUR CODE HERE:
-        
+        const bestRestaurant = restaurants.find((restaurant) =>{ 
+            if (restaurant.rating === 4.8)
+            return foundItem.innerHTML += `<div> ${restaurant.name} - ${restaurant.cuisine} - ${restaurant.rating}</div>`; 
         
         console.log('Found best restaurant using find');
     });
@@ -245,7 +259,7 @@ function clearAllDisplays() {
     document.querySelector('#found-item').innerHTML = '<p class="placeholder">Click button to find the highest rated restaurant</p>';
     console.log('All displays cleared');
 }
-
+})
 // Call these in the browser console:
 // demonstrateMethods() - see what each method does
 // clearAllDisplays() - reset all displays
