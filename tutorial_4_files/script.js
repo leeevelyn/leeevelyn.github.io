@@ -136,7 +136,6 @@ function updateConfirmation() {
 // Hint: use the isGoing and isNotGoing variables to check.
 
 nameInput.addEventListener('input', () => {  
-  Number(guestTotal);
   if (isGoing = true) {
     guestTotal++;
   }
@@ -145,7 +144,6 @@ nameInput.addEventListener('input', () => {
 
 guestInput.addEventListener('input', () => {
   Number(guestInput.value);
-  Number(guestTotal);
   guestLine = guestInput.value;
   guestTotal = guestTotal + guestInput.value;
   updateConfirmation();
