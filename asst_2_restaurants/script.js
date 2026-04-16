@@ -1,7 +1,7 @@
 
 import showCategories from './editable_js/template_category.js';
-import showStats from './editable_js/template_stats.js';
 import showTable from './editable_js/template_table.js';
+import showStats from './editable_js/template_stats.js';
 import showExternal from './editable_js/template_external.js';
 
 import loadData from './editable_js/load_data.js';

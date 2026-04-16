@@ -2,7 +2,113 @@
  * STATS VIEW
  * Show aggregate statistics and insights - good for understanding the big picture
  */
+
+//import loadS from './load_data.js';
+
+//const tableButton  = document.querySelector("#btn-stats");
+//const tableList = document.querySelector("#data-display");
+//const data = await loadS();
+
+//console.log(data);
 function showStats(data) {
+
+    // city count
+    const cities = {};
+    data.forEach((item) => {
+        const city = item.properties.city.toUpperCase();
+        cities[city] = (cities[city] || 0) + 1;
+    });
+
+    Object.entries(cities).forEach(([city]) =>{
+       // console.log(city.length);
+    })
+    
+    //const cityCount = cities.length;
+    //console.log(cities);
+
+    const compliantRestaurants = data.filter((item) => {
+        return (item.properties.inspection_results === "Compliance Schedule - Completed" || 
+            item.properties.inspection_results === "Compliance Schedule - Outstanding" ||
+            item.properties.inspection_results === "Compliant - No Health Risk")
+    });
+   // console.log("Compliant restaurants:", compliantRestaurants.length);
+
+    const grossRestaurants = data.filter((item) => {
+        return (item.properties.inspection_results === "Critical Violations observed" || 
+            item.properties.inspection_results === "Facility Closed" ||
+            item.properties.inspection_results === "Non-Compliant - Violations Observed")
+    });
+   // console.log("Noncompliant restaurants:", grossRestaurants.length);
+
+    const reopenedRestaurants = data.filter((item) => {
+        return (item.properties.inspection_results === "Facility Reopened")
+    });
+   // console.log("Reopened restaurants:", reopenedRestaurants.length);
+
+    const totalRestaurants = data.length;
+  //  console.log(totalRestaurants);
+
+    const totalCities = Object.keys(cities).length;
+  //  console.log(totalCities);
+
+    let textBox = '';
+    
+    textBox += `<div class = "city-card"
+        <h2>Total Number of Cities</h2>
+        <p>${totalCities}</p>
+        </div>
+        <div class ="restaurants-card"
+        <h2>Total Restaurants</h2>
+        <p>${totalRestaurants}</p>
+        </div>
+        <div class ="reopened-card"
+        <h2>Reopened Restaurants</h2>
+        <p>${reopenedRestaurants.length}</p>
+        </div>
+        <div class = "compliant-card"
+        <h2>Total Number of Compliant Restaurants</h2>
+        <p>${compliantRestaurants.length}</p>
+        </div>
+        <div class = "gross-card"
+        <h2>Total Number of NonCompliant Restaurants</h2>
+        <p>${grossRestaurants.length}</p>
+        </div>`
+    return textBox
+    }
+
+export default showStats;
+/*
+    
+
+
+
+
+newArray.forEach((restaurants) => {
+    const totalRestaurants = 
+})
+//console.log(totalRestaurants);
+
+    const compliance = {};
+    data.forEach((item) => {
+        const compliant = item.properties.inspection_results.toUpperCase();
+        compliance[compliant] = (compliance[compliant] || 0) + 1;
+    });
+    console.log(compliance);
+   
+    Object.entries(compliance).forEach(([compliant]) =>{
+        console.log(compliant);
+    })
+
+COMPLIANCE SCHEDULE - COMPLETED
+COMPLIANCE SCHEDULE - OUTSTANDING
+COMPLIANT - NO HEALTH RISK
+FACILITY REOPENED
+CRITICAL VIOLATIONS OBSERVED
+FACILITY CLOSED
+NON-COMPLIANT - VIOLATIONS OBSERVED
+*/
+
+
   // Requirements:
   // Replace the below "task" description with the following:
   // - One meaningful statistic calculation from the supplied dataset
@@ -12,8 +118,11 @@ function showStats(data) {
   // - Help users understand patterns in the data
   
   /* Javascript calculations here */   
+
+
   
-  /* html return */
+  /* html return */ 
+  /*
   return `
                 <h2 class="view-title">Stats View</h2>
                 <div class="todo-implementation">
@@ -26,4 +135,5 @@ function showStats(data) {
             `;
 }
 
-export default showStats
+
+*/

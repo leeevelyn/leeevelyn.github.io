@@ -1,9 +1,47 @@
-
 /**
  * TABLE VIEW
  * Display data in sortable rows - good for scanning specific information
  */
+
+
+//import loadT from './load_data.js';
+
+//const tableButton  = document.querySelector("#btn-table");
+const tableList = document.querySelector("#data-display");
+//const data = await loadT();
+//console.log(data);
+
 function showTable(data) {
+    let textBox = `<table>
+                        <thead>
+                           <tr>
+                                <th><b>Name</b></th>
+                                <th><b>Address</b></th>
+                                <th><b>City</b></th>
+                                <th><b>Inspection Results</b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.map(item => 
+                                `<tr>
+                                    <td>${item.properties.name}</td>
+                                    <td>${item.properties.address_line_1}</td>
+                                    <td>${item.properties.city}</td>
+                                    <td>${item.properties.inspection_results}</td>
+                                </tr>`
+                                ).join(" ")}
+                        </tbody>
+                    </table>`;
+    //console.log(textBox);
+        return textBox;
+                            }                      
+
+export default showTable;
+
+//tableButton.addEventListener('click', () => showTable(data));
+
+//console.log(tableList); */
+
   // Requirements:
   // - Show data in a table format
   // - Include all important fields
@@ -11,20 +49,4 @@ function showTable(data) {
   // - Consider adding sorting functionality
   //   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
 
-
-       fetch('data.json')
-
-  /*html*/ 
-  return `
-                <h2 class="view-title">Table View</h2>
-                <div class="todo-implementation">
-                    <h3>TODO: Implement Table View</h3>
-                    <p><strong>Data available:</strong> ${data.length} items loaded</p>
-                    <p><strong>Your task:</strong> Display the data as a sortable table</p>
-                    <p><strong>Consider:</strong> Which columns are most important? How can you make scanning easy?</p>
-                    <p><strong>Good for:</strong> Scanning specific data points, comparing values, finding specific information</p>
-                </div>
-            `;
-}
-
-export default showTable;
+                            
