@@ -1,6 +1,4 @@
 let dodgersVsRainfall = null;
-let shoheiVsDays = null;
-
 
 console.log(result.length());
 
