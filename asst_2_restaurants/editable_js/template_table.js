@@ -7,7 +7,6 @@
 //import loadT from './load_data.js';
 
 //const tableButton  = document.querySelector("#btn-table");
-const tableList = document.querySelector("#data-display");
 //const data = await loadT();
 //console.log(data);
 
