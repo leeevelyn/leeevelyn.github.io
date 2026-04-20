@@ -16,10 +16,13 @@ function showCategories(data) {
   });
 
   //console.log(categories);
+
+  const normalize = (city) => city.toUpperCase().replace(/-/, ' ');
+
   const set = new Set(categories);
  // console.log(set);
 
-  const newArray = [...set].map(city => {
+  const newArray = [...set].sort().map(city => {
     return data.filter(item => item.properties.city.toUpperCase() === city);
   });
 
@@ -30,12 +33,12 @@ function showCategories(data) {
     newArray.forEach((restaurants) => {
       const cityName = restaurants[0].properties.city.toUpperCase();
 
- 
+    
 
   textBox += `<div class="category-card">
-              <h2>${cityName}</h2>
-              <p>${restaurants.length} restaurants</p>
-              <ul>
+              <h2 class="category-header">${cityName}</h2>
+              <p class="category-text">${restaurants.length} restaurant(s)</p>
+              <ul class="category-text">
                   ${restaurants.map(item => 
                     `<li><b>${item.properties.name.toUpperCase()}</b> -
                     ${item.properties.address_line_1.toUpperCase()}`).join('')} </li>

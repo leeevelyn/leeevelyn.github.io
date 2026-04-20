@@ -12,18 +12,18 @@ const tableList = document.querySelector("#data-display");
 //console.log(data);
 
 function showTable(data) {
-    let textBox = `<table>
-                        <thead>
-                           <tr>
-                                <th><b>Name</b></th>
-                                <th><b>Address</b></th>
-                                <th><b>City</b></th>
-                                <th><b>Inspection Results</b></th>
+    let textBox = `<table class="table">
+                        <thead class="thead">
+                           <tr class="trow">
+                                <th>NAME</th>
+                                <th>ADDRESS</th>
+                                <th>CITY</th>
+                                <th>INSPECTION RESULTS</th>
                             </tr>
                         </thead>
                         <tbody>
                             ${data.map(item => 
-                                `<tr>
+                                `<tr class="trow2">
                                     <td>${item.properties.name}</td>
                                     <td>${item.properties.address_line_1}</td>
                                     <td>${item.properties.city}</td>

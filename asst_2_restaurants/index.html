@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Views - Framework Approach</title>
+    <title>Maryland Restaurants</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>One Dataset Four Ways</h1>
-            <p><strong>Assignment:</strong> This assignment asks you to use the same data Model to power four different Views through four different Controllers. Each presentation emphasizes different aspects of the information to serve different user goals.</p>
-        </header>
-
+    <header class="header">
+     <div class="text">
+            <h1 class="title-text">Can you trust that restaurant?</h1>
+            <p class="copy-text">Yelp reviews can tell you about how tasty the food was or how good the service was, but what about the stuff that actually matters? <br><br>
+            That's right, we're talking about health code violations!</p>
+    </div>
+    <div>
+        <img class = "image" src="https://www.dictionary.com/e/wp-content/uploads/2018/03/Thinking_Face_Emoji-Emoji-Island.png" alt="Thinking_Face_Emoji-Emoji-Island">
+    </div>
+</header>
+    <div class="button-container">
         <nav class="view-selector">
-            <button class="view-button" id="btn-categories" data-view="categories">Category View</button>
-            <button class="view-button" id="btn-table" data-view="table">Table View</button>
-            <button class="view-button" id="btn-stats" data-view="stats">Stats View</button>
-            <button class="view-button" id="btn-external" data-view="data">External Library View</button>
+            <button class="view-button" id="btn-categories" data-view="categories">CATEGORY VIEW</button>
+            <button class="view-button" id="btn-table" data-view="table">TABLE VIEW</button>
+            <button class="view-button" id="btn-stats" data-view="stats">STATS VIEW</button>
+            <button class="view-button" id="btn-external" data-view="data">EXTERNAL LIBRARY VIEW</button>
         </nav>
-
+    </div>
+    <div class="display-holder">
         <main class="display-container">
             <div id="data-display">
                 <div class="loading">Loading restaurant data...</div>

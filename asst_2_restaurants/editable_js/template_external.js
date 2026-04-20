@@ -32,9 +32,11 @@ function showExternal(data) {
 
    
     externalHTML += `<div class = "template_view">
-        <h2>Restaurant Inspection Results</h2>
-        <p>Total restaurants: ${data.length}</p>
-        <div style="position: relative; width: 100%; height: 400px;">
+        <div class="external-header">
+            <h2>INSPECTION RESULTS</h2>
+        </div>
+            <p class="total-restaurants">Total restaurants: ${data.length}</p>
+        <div class ="external-chart" style="position: relative; width: 100%; height: auto;">
                 <canvas id="myChart"></canvas>
             </div>
     </div>`

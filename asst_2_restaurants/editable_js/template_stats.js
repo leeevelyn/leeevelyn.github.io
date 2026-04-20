@@ -53,26 +53,28 @@ function showStats(data) {
 
     let textBox = '';
     
-    textBox += `<div class = "city-card"
-        <h2>Total Number of Cities</h2>
-        <p>${totalCities}</p>
+    textBox += `<div class = "stats-chart">
+        <div class = "stats-card">
+        <h2 class = "stats-header">CITIES COVERED</h2>
+        <p class="stats-text">${totalCities}</p>
         </div>
-        <div class ="restaurants-card"
-        <h2>Total Restaurants</h2>
-        <p>${totalRestaurants}</p>
+        <div class ="stats-card">
+        <h2 class = "stats-header">RESTAURANTS INSPECTED</h2>
+        <p class="stats-text">${totalRestaurants}</p>
         </div>
-        <div class ="reopened-card"
-        <h2>Reopened Restaurants</h2>
-        <p>${reopenedRestaurants.length}</p>
+        <div class = "stats-card">
+        <h2 class = "stats-header">COMPLIANT RESTAURANTS</h2>
+        <p class="stats-text">${compliantRestaurants.length}</p>
         </div>
-        <div class = "compliant-card"
-        <h2>Total Number of Compliant Restaurants</h2>
-        <p>${compliantRestaurants.length}</p>
+        <div class = "stats-card">
+        <h2 class = "stats-header">NONCOMPLIANT RESTAURANTS</h2>
+        <p class="stats-text">${grossRestaurants.length}</p>
         </div>
-        <div class = "gross-card"
-        <h2>Total Number of NonCompliant Restaurants</h2>
-        <p>${grossRestaurants.length}</p>
-        </div>`
+        <div class ="stats-card">
+        <h2 class = "stats-header">REOPENED RESTAURANTS</h2>
+        <p class="stats-text">${reopenedRestaurants.length}</p>
+        </div>
+    </div>`
     return textBox
     }
 
