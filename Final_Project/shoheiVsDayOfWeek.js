@@ -1,7 +1,6 @@
 let shoheiVsDays = null;
 
 
-console.log(result.length());
 
 function showExternal(data) {
   let shoheiVsDaysHTML = '';
@@ -12,4 +11,5 @@ function showExternal(data) {
   </div>`
   
 }
-export default loadData();
+export default dates_days();
+dates_days_year.day_of_week
