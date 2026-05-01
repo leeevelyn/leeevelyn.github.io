@@ -1,14 +1,19 @@
 async function loadData() {
-    try{  
-    
-        const shoheiRuns = await fetch('https://raw.githubusercontent.com/stiles/dodgers/refs/heads/main/data/standings/dodgers_season_outcomes.json');
-        console.log(data);
-  
-        return result;
-      } catch (error) {
-      console.error("Failed to load data:", error);
-      throw new Error("Could not load data from API");
-    }
-  }
+  try {
+    const response = await fetch('./shohei_homers.json');
 
-  export default loadData
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log(data);
+    return data;
+
+  } catch (error) {
+    console.error("Failed to load data:", error);
+    throw new Error("Could not load data");
+  }
+}
+
+export default loadData;

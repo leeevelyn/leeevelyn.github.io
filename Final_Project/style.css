@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #76a19d;
+    --secondary-color: #1a5751;
+    --background-color: #f7f7f7;
+    --card-background: #bf5454;
+    --text-color: #333;
+    --border-color: #ddd;
+    --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Trebuchet MS', monospace;
+    margin: 0;
+    padding: 1rem;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.section-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+div.baseball-intro {
+    padding: 1.3rem;
+    background-color: rgb(215, 170, 215);
+    position: sticky;
+    top: 0;
+    height: 100vh;  
+    padding-top: 4rem;
+}
+
+.stats-text {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.team-text {
+    padding-top: 100vh; /* i'm sorry this is so janky but i decided i'd figure out fade in if i had time so if you're reading this that means i did not*/
+}
+
+.stats-image {
+    max-width: 10px;
+}
+
+.section-two-intro {
+    padding-top: 20rem;
+}
+/*
+div.stats {
+    min-height: 100vh;
+    opacity: 0;
+    transform: translateY(20px);
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timeline: view();
+    animation-range: entry;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+*/
+
+
+
+

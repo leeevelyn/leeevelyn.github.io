@@ -8,22 +8,224 @@ are mapped on the correct year in one chart?  -->
     <title>Baseball, Baby</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
-    <header class="header">
-        <div class="container"></div>
-            <h1 class="title_text">Dodgers!</h1>
-            <p>How do they play? Do they play well? Let's find out!</p>
-        </div>
-    </header>
-
-    <div>
-        <main class="display-container">
-            <div id="display1">
-                <div class = "loading">Loading data...</div>
-            </div>
-        </main>
-    </div>
     <script type="module" src="./script.js" defer></script>
+</head>
+  <body class="page-layout">
+    <section>
+        <header class="site-header">
+            <div class="container">
+                <h1 class="title_text">Dodgers!</h1>
+                <p class="paragraph">How do they play? Do they play well? Let's find out! <br>How do they play? Do they play well? Let's find out!How do they play? Do they play well? Let's find out!How do they play? Do they play well? Let's find out!How do they play? Do they play well? Let's find out!</p>
+            </div>
+        </header>
+    </section>
+
+<!--Section one-->
+
+    <section class="section-one">
+        <div class="baseball-intro">
+            <p>Baseball is a game of statistics and numbers. With detailed coverage of the sport dating back to the 1890s, there are just so many numbers to track and so many nerds to track them.</p>
+         </div>
+
+        <div class="stats">
+            <p class="stats-text team-text">the team has</p>
+            <figure class="stats-image">
+                <img src="stats/team-stats.png" alt="team stats tracked"/>
+            </figure>
+            <p class="stats-text">defense has</p>
+            <figure class="stats-image">
+                <img src="stats/Defense-Stats.png"/>
+            </figure>
+  
+            <p class="stats-text">offense has</p>
+            <figure class="stats-image">
+                <img src="stats/Offense-Stats.png" />
+            </figure>
+            <p class="stats-text">and finally pitching has</p>
+            <figure class="stats-image">
+                <img src="stats/Pitching-Stats.png" />
+            </figure>
+         </div>
+    </section>
+
+
+<!--Section two-->
+
+    <section>
+        <div class="section-two-intro">
+            <h3>Like I said, a lot of stats</h3>
+            
+            <p>Such fastidious record keeping __ results in some hyper specific stats.</p>
+        </div>
+    </section>
+
+    <section class="section-two">
+        <div class="section-two-text">
+            <p>In fact, the more hyper specific the stat, the better.</p>   
+            </div>
+
+         <div class="section-two-image">
+            <figure>
+                <img src="" />
+            </figure>
+         </div>
+
+         <div class="section-two-image">
+            <figure>
+                <img src="" />
+            </figure>
+         </div>
+
+         <div class="section-two-image">
+            <figure>
+                <img src="" />
+            </figure>
+         </div>
+    </section>
+
+<!--Section three: Dodgers Performance + Rainfall-->
+    <section>
+        <div class="section-three-title">
+            <h2>THE DODGERS</h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-three-copy1">
+            <p>The best team in the world was founded in 1885 as the Brooklyn Dodgers. Here you can see their performance relative to 0.500 since their start in 1885. (I did not make this chart)</div>
+            <p>In 1958, the team relocated to Los Angeles in a way that  From their inception to the end of the 2025 season, they won a grand total of 11,525 games.</p>
+        </div>
+        <div class="section-three-image">
+            <figure>
+                <img src="" />
+            </figure>
+        </div>
+    </section>
+   
+    <section>
+        <div class="section-three-copy2">
+            <p>Are those good numbers? Yes and no.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-three-rainfall-copy">
+            <h4>Since __ their performance has about matched the rainfall in __</h4>>
+        </div>
+        <div class="section-three-rainfall-chart">
+            <div style="width: 800px;">
+                <canvas id="rainfall-chart1"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-three-rainfall-copy">
+            <h4>Lorem Ipsum</h4>>
+        </div>
+        <div class="section-three-rainfall-chart">
+            <div style="width: 800px;">
+                <canvas id="rainfall-chart2"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-three-rainfall-copy">
+            <h4>Lorem Ipsum</h4>>
+        </div>
+        <div class="section-three-rainfall-chart">
+            <div style="width: 800px;">
+                <canvas id="rainfall-chart3"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-three-rainfall-copy">
+            <h4>Lorem Ipsum</h4>>
+        </div>
+        <div class="section-three-rainfall-chart">
+            <div style="width: 800px;">
+                <canvas id="rainfall-chart4"></canvas>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-three-copy3">
+            <h4>So overall, pretty good performance.</h4>
+        </div>
+    </section>
+    
+<!--section four: shohei vs days/dates-->
+    <section>
+        <main class="split-layout">
+            <div id="display_1">
+                <div style="width: 800px;">
+                    <canvas id="chartByDay"></canvas>
+                </div>
+            </div>
+                <div class="container">
+                    <h2 class="section_2">LOREM IPSUM</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su</p>
+                </div>
+    </section>
+
+    <section>
+        <main class="split-layout">
+            <div id="display_1">
+                <div style="width: 800px;">
+                    <canvas id="chartByOddEven"></canvas>
+                </div>
+            </div>
+                <div class="container">
+                    <h2 class="section_2">LOREM IPSUM</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su</p>
+                </div>
+    </section>
+
 </body>
 </html>
+
+
+
+    <!-- OLD SECTION ONE
+<section>
+    <div class="baseball-intro">
+        <p>Baseball is a game of statistics and numbers. With detailed coverage of the sport dating back to the 1890s, there are just so many numbers to track and so many nerds to track them.</p>
+     </div>
+</section>
+
+<section class="section-one">
+    <div class="defense">
+        <p>defense has</p>
+    </div>
+     <div class="defense-stats">
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJDI2glWgU_UsJ3jRuqlH40rKkCyl8NmVflQ&s"/>
+        </figure>
+     </div>
+</section>
+
+ <section>
+        <div class="offense">
+            <p>offense has</p>
+        </div>
+         <div class="offense-stats">
+            <figure>
+                <img src="" />
+            </figure>
+         </div>
+    </section>
+
+    <section>
+        <div class="pitching">
+            <p>pitching has</p>
+        </div>
+         <div class="pitching-stats">
+            <figure>
+                <img src="" />
+            </figure>
+         </div>
+    </section>
+-->

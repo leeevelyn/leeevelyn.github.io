@@ -1,112 +1,413 @@
 [
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1940,
-      "Annual precipitation": 388.82376
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1958,
+      "Annual precipitation": 21.920366
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1941,
-      "Annual precipitation": 194.17375
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1959,
+      "Annual precipitation": 62.570538
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1942,
-      "Annual precipitation": 226.38503
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1960,
+      "Annual precipitation": 60.270542
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1943,
-      "Annual precipitation": 705.09155
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1961,
+      "Annual precipitation": 77.29763
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1944,
-      "Annual precipitation": 241.56691
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1962,
+      "Annual precipitation": 27.036608
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1945,
-      "Annual precipitation": 210.51016
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1963,
+      "Annual precipitation": 85.8679
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1946,
-      "Annual precipitation": 315.00204
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1964,
+      "Annual precipitation": 62.10154
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1947,
-      "Annual precipitation": 570.4315
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1965,
+      "Annual precipitation": 98.224
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1948,
-      "Annual precipitation": 590.07935
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1966,
+      "Annual precipitation": 106.78528
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1949,
-      "Annual precipitation": 805.4844
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1967,
+      "Annual precipitation": 132.90903
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1950,
-      "Annual precipitation": 1130.9753
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1968,
+      "Annual precipitation": 82.799774
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1951,
-      "Annual precipitation": 717.0383
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1969,
+      "Annual precipitation": 80.99227
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1952,
-      "Annual precipitation": 769.84143
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1970,
+      "Annual precipitation": 47.50682
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1953,
-      "Annual precipitation": 876.84436
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1971,
+      "Annual precipitation": 126.283516
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1954,
-      "Annual precipitation": 450.50967
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1972,
+      "Annual precipitation": 99.77879
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1955,
-      "Annual precipitation": 397.57703
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1973,
+      "Annual precipitation": 52.392925
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1956,
-      "Annual precipitation": 377.97162
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1974,
+      "Annual precipitation": 127.46712
     },
     {
-      "Entity": "Djibouti",
-      "Code": "DJI",
-      "Year": 1957,
-      "Annual precipitation": 349.98807
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1975,
+      "Annual precipitation": 85.3437
     },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1976,
+      "Annual precipitation": 60.14048
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1977,
+      "Annual precipitation": 69.78564
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1978,
+      "Annual precipitation": 39.57642
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1979,
+      "Annual precipitation": 75.092514
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1980,
+      "Annual precipitation": 113.28483
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1981,
+      "Annual precipitation": 49.293907
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1982,
+      "Annual precipitation": 114.14329
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1983,
+      "Annual precipitation": 65.047005
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1984,
+      "Annual precipitation": 70.14761
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1985,
+      "Annual precipitation": 84.07623
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1986,
+      "Annual precipitation": 99.47357
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1987,
+      "Annual precipitation": 82.618164
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1988,
+      "Annual precipitation": 154.70508
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1989,
+      "Annual precipitation": 62.49583
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1990,
+      "Annual precipitation": 80.988174
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1991,
+      "Annual precipitation": 117.80392
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1992,
+      "Annual precipitation": 94.45668
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1993,
+      "Annual precipitation": 76.17596
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1994,
+      "Annual precipitation": 117.46933
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1995,
+      "Annual precipitation": 58.486454
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1996,
+      "Annual precipitation": 88.95466
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1997,
+      "Annual precipitation": 103.57854
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1998,
+      "Annual precipitation": 68.86206
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 1999,
+      "Annual precipitation": 37.267456
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2000,
+      "Annual precipitation": 66.12256
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2001,
+      "Annual precipitation": 66.96067
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2002,
+      "Annual precipitation": 102.48589
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2003,
+      "Annual precipitation": 96.823845
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2004,
+      "Annual precipitation": 65.19183
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2005,
+      "Annual precipitation": 61.021492
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2006,
+      "Annual precipitation": 69.09096
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2007,
+      "Annual precipitation": 62.603123
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2008,
+      "Annual precipitation": 55.060787
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2009,
+      "Annual precipitation": 44.046223
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2010,
+      "Annual precipitation": 81.16173
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2011,
+      "Annual precipitation": 62.114357
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2012,
+      "Annual precipitation": 69.491066
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2013,
+      "Annual precipitation": 88.399
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2014,
+      "Annual precipitation": 82.33858
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2015,
+      "Annual precipitation": 106.98431
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2016,
+      "Annual precipitation": 88.254745
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2017,
+      "Annual precipitation": 51.21682
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2018,
+      "Annual precipitation": 119.847946
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2019,
+      "Annual precipitation": 98.64566
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2020,
+      "Annual precipitation": 105.07836
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2021,
+      "Annual precipitation": 48.27209
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2022,
+      "Annual precipitation": 70.601814
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2023,
+      "Annual precipitation": 94.45528
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2024,
+      "Annual precipitation": 50.386402
+    },
+    {
+      "Entity": "Jordan",
+      "Code": "JOR",
+      "Year": 2025,
+      "Annual precipitation": 74.18082
+    },
+
     {
       "Entity": "Djibouti",
       "Code": "DJI",
@@ -515,630 +816,8 @@
       "Year": 2025,
       "Annual precipitation": 123.707695
     },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1940,
-      "Annual precipitation": 53.165073
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1941,
-      "Annual precipitation": 62.774754
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1942,
-      "Annual precipitation": 81.14741
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1943,
-      "Annual precipitation": 83.48285
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1944,
-      "Annual precipitation": 94.95686
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1945,
-      "Annual precipitation": 61.940247
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1946,
-      "Annual precipitation": 55.8978
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1947,
-      "Annual precipitation": 56.99226
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1948,
-      "Annual precipitation": 68.4409
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1949,
-      "Annual precipitation": 119.76842
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1950,
-      "Annual precipitation": 71.37175
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1951,
-      "Annual precipitation": 76.21397
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1952,
-      "Annual precipitation": 63.84799
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1953,
-      "Annual precipitation": 120.81343
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1954,
-      "Annual precipitation": 71.144196
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1955,
-      "Annual precipitation": 39.328915
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1956,
-      "Annual precipitation": 66.77333
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1957,
-      "Annual precipitation": 74.01686
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1958,
-      "Annual precipitation": 21.920366
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1959,
-      "Annual precipitation": 62.570538
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1960,
-      "Annual precipitation": 60.270542
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1961,
-      "Annual precipitation": 77.29763
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1962,
-      "Annual precipitation": 27.036608
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1963,
-      "Annual precipitation": 85.8679
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1964,
-      "Annual precipitation": 62.10154
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1965,
-      "Annual precipitation": 98.224
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1966,
-      "Annual precipitation": 106.78528
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1967,
-      "Annual precipitation": 132.90903
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1968,
-      "Annual precipitation": 82.799774
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1969,
-      "Annual precipitation": 80.99227
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1970,
-      "Annual precipitation": 47.50682
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1971,
-      "Annual precipitation": 126.283516
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1972,
-      "Annual precipitation": 99.77879
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1973,
-      "Annual precipitation": 52.392925
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1974,
-      "Annual precipitation": 127.46712
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1975,
-      "Annual precipitation": 85.3437
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1976,
-      "Annual precipitation": 60.14048
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1977,
-      "Annual precipitation": 69.78564
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1978,
-      "Annual precipitation": 39.57642
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1979,
-      "Annual precipitation": 75.092514
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1980,
-      "Annual precipitation": 113.28483
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1981,
-      "Annual precipitation": 49.293907
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1982,
-      "Annual precipitation": 114.14329
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1983,
-      "Annual precipitation": 65.047005
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1984,
-      "Annual precipitation": 70.14761
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1985,
-      "Annual precipitation": 84.07623
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1986,
-      "Annual precipitation": 99.47357
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1987,
-      "Annual precipitation": 82.618164
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1988,
-      "Annual precipitation": 154.70508
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1989,
-      "Annual precipitation": 62.49583
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1990,
-      "Annual precipitation": 80.988174
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1991,
-      "Annual precipitation": 117.80392
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1992,
-      "Annual precipitation": 94.45668
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1993,
-      "Annual precipitation": 76.17596
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1994,
-      "Annual precipitation": 117.46933
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1995,
-      "Annual precipitation": 58.486454
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1996,
-      "Annual precipitation": 88.95466
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1997,
-      "Annual precipitation": 103.57854
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1998,
-      "Annual precipitation": 68.86206
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 1999,
-      "Annual precipitation": 37.267456
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2000,
-      "Annual precipitation": 66.12256
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2001,
-      "Annual precipitation": 66.96067
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2002,
-      "Annual precipitation": 102.48589
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2003,
-      "Annual precipitation": 96.823845
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2004,
-      "Annual precipitation": 65.19183
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2005,
-      "Annual precipitation": 61.021492
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2006,
-      "Annual precipitation": 69.09096
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2007,
-      "Annual precipitation": 62.603123
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2008,
-      "Annual precipitation": 55.060787
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2009,
-      "Annual precipitation": 44.046223
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2010,
-      "Annual precipitation": 81.16173
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2011,
-      "Annual precipitation": 62.114357
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2012,
-      "Annual precipitation": 69.491066
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2013,
-      "Annual precipitation": 88.399
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2014,
-      "Annual precipitation": 82.33858
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2015,
-      "Annual precipitation": 106.98431
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2016,
-      "Annual precipitation": 88.254745
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2017,
-      "Annual precipitation": 51.21682
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2018,
-      "Annual precipitation": 119.847946
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2019,
-      "Annual precipitation": 98.64566
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2020,
-      "Annual precipitation": 105.07836
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2021,
-      "Annual precipitation": 48.27209
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2022,
-      "Annual precipitation": 70.601814
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2023,
-      "Annual precipitation": 94.45528
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2024,
-      "Annual precipitation": 50.386402
-    },
-    {
-      "Entity": "Jordan",
-      "Code": "JOR",
-      "Year": 2025,
-      "Annual precipitation": 74.18082
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1940,
-      "Annual precipitation": 3658.9705
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1941,
-      "Annual precipitation": 3182.4456
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1942,
-      "Annual precipitation": 3150.3076
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1943,
-      "Annual precipitation": 4097.724
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1944,
-      "Annual precipitation": 5099.195
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1945,
-      "Annual precipitation": 3246.216
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1946,
-      "Annual precipitation": 4055.0146
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1947,
-      "Annual precipitation": 3528.6484
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1948,
-      "Annual precipitation": 4162.621
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1949,
-      "Annual precipitation": 3593.7454
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1950,
-      "Annual precipitation": 3553.8916
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1951,
-      "Annual precipitation": 4158.953
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1952,
-      "Annual precipitation": 3919.7952
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1953,
-      "Annual precipitation": 3793.5745
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1954,
-      "Annual precipitation": 3130.8733
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1955,
-      "Annual precipitation": 3339.8193
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1956,
-      "Annual precipitation": 3257.1216
-    },
-    {
-      "Entity": "Solomon Islands",
-      "Code": "SLB",
-      "Year": 1957,
-      "Annual precipitation": 3097.9094
-    },
+
+  
     {
       "Entity": "Solomon Islands",
       "Code": "SLB",
@@ -1550,114 +1229,6 @@
     {
       "Entity": "Uzbekistan",
       "Code": "UZB",
-      "Year": 1940,
-      "Annual precipitation": 151.55087
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1941,
-      "Annual precipitation": 133.73756
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1942,
-      "Annual precipitation": 150.90631
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1943,
-      "Annual precipitation": 197.18176
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1944,
-      "Annual precipitation": 161.59093
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1945,
-      "Annual precipitation": 196.67313
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1946,
-      "Annual precipitation": 125.442665
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1947,
-      "Annual precipitation": 125.590416
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1948,
-      "Annual precipitation": 190.90749
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1949,
-      "Annual precipitation": 258.82156
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1950,
-      "Annual precipitation": 175.13734
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1951,
-      "Annual precipitation": 222.46931
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1952,
-      "Annual precipitation": 259.71576
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1953,
-      "Annual precipitation": 323.70346
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1954,
-      "Annual precipitation": 278.89752
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1955,
-      "Annual precipitation": 216.9778
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1956,
-      "Annual precipitation": 237.31029
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
-      "Year": 1957,
-      "Annual precipitation": 236.87296
-    },
-    {
-      "Entity": "Uzbekistan",
-      "Code": "UZB",
       "Year": 1958,
       "Annual precipitation": 274.9731
     },
@@ -2063,4 +1634,4 @@
       "Year": 2025,
       "Annual precipitation": 170.57486
     }
-   ]
+  ]
