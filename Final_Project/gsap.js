@@ -1,6 +1,6 @@
-gsap.registerPlugin(ScrollTrigger);
-
 document.addEventListener('DOMContentLoaded', () => {
+  gsap.registerPlugin(ScrollTrigger);
+
   const horizontalSections = gsap.utils.toArray('section.horizontal');
 
   horizontalSections.forEach((sec) => {
