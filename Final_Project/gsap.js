@@ -1,17 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".fade-text", {
-  scrollTrigger: {
-    trigger: ".fade-text", // Element that triggers the animation
-    start: "top 80%",      // When top of text hits 80% from top of viewport
-    end: "top 30%",        // Ends when top of text hits 30% from top
-    scrub: true,           // Links animation to scroll
-    markers: false         // Set to true to see trigger points
-  },
-  opacity: 1,
-  duration: 1
-});
-
 document.addEventListener('DOMContentLoaded', () => {
   const horizontalSections = gsap.utils.toArray('section.horizontal');
 
