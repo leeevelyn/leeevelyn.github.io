@@ -12,6 +12,7 @@
     <script type="module" src="./script.js" defer></script>
 </head>
   <body class="page-layout">
+<!--
     <section>
         <header class="site-header">
             <div class="container1">
@@ -21,40 +22,45 @@
         </header>
     </section>
 
-<!--INTRO-->
+INTRO-->
 
     <section class="intro">
-        <div class="container">
+        <div class="containerintro">
             <div class="resize">
                 <figure class="intro-image">
                     <img src="charts/dodgersHeader.webp"/>
                 </figure>
                 </div>
             <h1 class="titletext">THE DODGERS</h1>
-                <p class="section-one-copy">As the old adage goes, correlation is causation. But what correlations can lead to the wonder and splendor of the Los Angeles Dodgers? I decided to try and find out for myself.
+            <div class="full-intro-copy">
+                <h2 class="intro-copy">As the old adage goes, correlation is causation. But what correlations could possibly explain the two-time world series champs, the Los Angeles Dodgers?</h2>
+                    <br><br>
+                   <h3>After all, what makes a team good? Is it coaching? Is the staff? Is it the talent?</h3> 
                     <br>
-                    What makes a team good? Is it coaching? Is the staff? Is it the talent?
-                    <br>
-                    I say no. It’s a secret fifth thing, and I decided to find out what it was once and for all.</p>
-        </div>
-      </section>
-
-      <section>
-        <div class="section-one-copy2">
-            <p>Albert Hammond once sang that “it never rains in Southern California” which got me wondering...while it doesn’t rain in Southern California, perhaps rainfall somewhere else is a clue here.</p>
-        </div>
-        <div class="section-one-copy3">
-            <p>So I set out to test this theory by looking at average rainfall in a bunch of other countries to see if I could argue a causal relationship between any of these countries and Dodgers performance and what I found was mostly boring.</p>
-        </div>
+                    <p>I say no. It’s a secret fifth thing, and I decided that for this class, I would try to figure out what it could be.</p>
+    </div>
+    </div>
     </section>
 
       <!--SECTION ONE-->
 
       <section class="horizontal">
         <div class="pin-wrap">
-          <div class="animation-wrap to-right">
+            <div class="animation-wrap to-right">
+                <section class="intro-copy2">
+                    <div>
+                        <p>Naturally, the first thing I turned to was music.
+                            <br><br>
+                            Albert Hammond's most famous song is "It Never Rains in Southern California" which got me wondering...while it doesn’t rain in Southern California, perhaps rainfall somewhere else is a clue here.
+                        <br><br>
+                        So I set out to test this theory by looking at average rainfall in a bunch of other countries to see if I could argue a causal relationship between any of these countries and Dodgers performance and if I'm honest, unfortunately what I found was mostly boring.</p>
+                    </div>         
+                </section>
             <section class="rainfall">
-                <div class="item"> <h3>While average rainfall in Jordan seems like a decent enough bet because the country has never gotten over 155mm of rain in a year, the r here was 0.03. Basically no relationship at all.</h3> </div>
+                <div class="item"> <h3>While one would think that with no average rainfall above 155mm, that Jordan would be a decent enough bet, it tragically proved to be untrue. 
+                    <br><br>
+                    The r (or Pearson correlation coefficient) here was a measly 0.03 which is basically no relationship at all.</h3> 
+                </div>
                 <div class="rainfall-chart">
                     <div class="chartContainer">
                         <canvas id="rainfall-chart1"></canvas>
@@ -63,7 +69,7 @@
             </section>
     
             <section class="rainfall">
-                <div class="item"> <h3>So naturally after Jordan was a bust, I took a look at Djibouti and discovered that there’s once again, no correlation or causation happening here. The r is a measly -0.14</h3> 
+                <div class="item"> <h3>So naturally after Jordan was a bust, I took a look at Djibouti. Sadly while I discovered a few things (like how 1977 was their wettest year on record), what I didn't discover was correlation or causation. The r here is a small -0.14</h3> 
                 </div>
                     <div class="rainfall-chart">
                         <div class="chartContainer">
@@ -73,7 +79,7 @@
             </section> 
     
             <section class="rainfall">
-                <div class="item"> <h3>And then I thought but surely Uzbekistan wouldn't let me down, except yes it did, because the r was -0.23 </h3> 
+                <div class="item"> <h3>But then I thought surely Uzbekistan wouldn't let me down, except yes it did, because the r was -0.23 </h3> 
                 </div>
                     <div class="rainfall-chart">
                         <div class="chartContainer">
@@ -81,10 +87,17 @@
                     </div>
                 </div>
             </section> 
+
+            <section class="intro-copy2">
+                <div class="item"> <h3>Finally, as I was losing hope, I found something close to an answer.</h3> 
+                </div>
+            </section> 
             
             <section class="rainfall rainfall-last">
-                <div class="item"> <h3>So I went back to the drawing board and found perhaps a part of the answer in the Solomon Islands. While this chart doesn’t look like much, if you zoom in closer, you can see that there’s a relationship there. The r for this is 0.41 which is a weak-to-moderate correlation showing that wetter Solomon Islands = betters Dodgers performance</h3> 
-                <button id="toggle-solomon-islands">Switch View</button>
+                <div class="item"> <h3>The answer was, the Solomon Islands. While this chart doesn’t look like much, if you zoom in closer, you can see that there’s something of a relationship there. 
+                    <br><br>
+                    The r for this is 0.41 which is a weak-to-moderate correlation showing that you could say that the wetter the Solomon Islands are, the better the Dodgers perform.</h3> 
+                <button id="button">Switch View</button>
                 </div>
                 <div class="rainfall-chart">
                     <div class="chartContainer">

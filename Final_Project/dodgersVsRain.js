@@ -90,7 +90,7 @@ export default async function buildRainfallCharts() {
     });
 
     if (i === 3) {
-      document.getElementById('toggle-solomon-islands').addEventListener('click', function () {
+      document.getElementById('button').addEventListener('click', function () {
         dualAxis = !dualAxis;
         this.textContent = dualAxis ? 'Switch View' : 'Switch View';
 
