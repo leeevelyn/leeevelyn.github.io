@@ -41,6 +41,11 @@ img {
   font-weight: 100;
 }
 
+.intro-end {
+  font-weight: 100;
+  font-size: large;
+}
+
 .titletext {
     padding: 40px 30px 10px 30px;
     font-size: 13vh;
@@ -56,7 +61,6 @@ img {
   flex-direction: column;
   justify-content: center;
   font-size: x-large;
-
 }
 
 /* SECTION ONE RAINFALL */
@@ -69,16 +73,44 @@ section.section-one-copy {
 /*TRANSITION*/
 
 .transitionbig {
-background-color: #005A9C;
-color: #ffffff;
-padding-left: 20vh;
-padding-top: 20vh;
-padding-bottom: 20vh;
+  padding: 20vw;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
 }
 
 
 /*SECTION TWO SHOHEI*/
 
+.shoheititle {
+  padding-bottom: 10vh;
+  font-size: 6rem;
+}
+
+.emphasis {
+  font-size: x-large;
+}
+
+/*END*/
+.end {
+  height: 100vh;
+}
+
+.theEnd {
+  font-size: 13vh;
+  color: black;
+  background-color: rgba(227, 230, 232, 0.5);    
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*ALL OVER*/
 
 .pin-wrap {
   height: 100vh;
