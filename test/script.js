@@ -1,16 +1,13 @@
 //import loadData from './load_data.js';
-//import dodgersRain from './dodgersVsRain.js';
 //import buildCharts from './shoheiVsDayOfWeek.js';
 
 import buildRainfallCharts from './dodgersVsRain.js';
 buildRainfallCharts();
 
 
-import homersVsPres from "./homersVsPresidents.js";
-homersVsPres();
+//import homersVsPres from "./homersVsPresidents.js";
 
-import homersVsPres2 from "./homersVsPres2.js";
-homersVsPres2();
+
 
 /*
 function updateDisplay(content) {

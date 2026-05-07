@@ -1633,5 +1633,414 @@
       "Code": "UZB",
       "Year": 2025,
       "Annual precipitation": 170.57486
+    },
+
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1958,
+      "Annual precipitation": 1508.3038
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1959,
+      "Annual precipitation": 1604.3203
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1960,
+      "Annual precipitation": 1214.7506
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1961,
+      "Annual precipitation": 1209.7483
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1962,
+      "Annual precipitation": 1191.1469
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1963,
+      "Annual precipitation": 1197.3499
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1964,
+      "Annual precipitation": 1128.702
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1965,
+      "Annual precipitation": 1509.8052
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1966,
+      "Annual precipitation": 1256.1736
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1967,
+      "Annual precipitation": 1561.608
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1968,
+      "Annual precipitation": 1398.8153
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1969,
+      "Annual precipitation": 1336.7782
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1970,
+      "Annual precipitation": 1428.5486
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1971,
+      "Annual precipitation": 1598.3502
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1972,
+      "Annual precipitation": 1391.1934
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1973,
+      "Annual precipitation": 1491.9363
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1974,
+      "Annual precipitation": 1414.2128
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1975,
+      "Annual precipitation": 1160.9305
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1976,
+      "Annual precipitation": 1235.3755
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1977,
+      "Annual precipitation": 1318.0055
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1978,
+      "Annual precipitation": 1078.3389
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1979,
+      "Annual precipitation": 1546.4647
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1980,
+      "Annual precipitation": 1627.7185
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1981,
+      "Annual precipitation": 1394.1246
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1982,
+      "Annual precipitation": 1626.1631
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1983,
+      "Annual precipitation": 1832.9734
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1984,
+      "Annual precipitation": 1585.9019
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1985,
+      "Annual precipitation": 1389.844
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1986,
+      "Annual precipitation": 1642.127
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1987,
+      "Annual precipitation": 1731.9331
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1988,
+      "Annual precipitation": 1321.4387
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1989,
+      "Annual precipitation": 1633.4224
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1990,
+      "Annual precipitation": 1718.4916
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1991,
+      "Annual precipitation": 1437.6302
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1992,
+      "Annual precipitation": 1831.4233
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1993,
+      "Annual precipitation": 1369.5945
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1994,
+      "Annual precipitation": 1522.5771
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1995,
+      "Annual precipitation": 1409.0806
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1996,
+      "Annual precipitation": 1691.3716
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1997,
+      "Annual precipitation": 1655.5845
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1998,
+      "Annual precipitation": 1768.5137
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 1999,
+      "Annual precipitation": 1291.161
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2000,
+      "Annual precipitation": 1485.4609
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2001,
+      "Annual precipitation": 1384.6953
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2002,
+      "Annual precipitation": 1218.0906
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2003,
+      "Annual precipitation": 1308.3821
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2004,
+      "Annual precipitation": 1179.629
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2005,
+      "Annual precipitation": 1257.755
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2006,
+      "Annual precipitation": 1285.4685
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2007,
+      "Annual precipitation": 1267.252
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2008,
+      "Annual precipitation": 1297.0646
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2009,
+      "Annual precipitation": 1290.2401
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2010,
+      "Annual precipitation": 1248.7765
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2011,
+      "Annual precipitation": 1269.9791
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2012,
+      "Annual precipitation": 1219.718
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2013,
+      "Annual precipitation": 1213.8608
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2014,
+      "Annual precipitation": 1529.6476
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2015,
+      "Annual precipitation": 1677.643
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2016,
+      "Annual precipitation": 1356.9149
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2017,
+      "Annual precipitation": 1453.002
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2018,
+      "Annual precipitation": 1362.6536
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2019,
+      "Annual precipitation": 1284.984
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2020,
+      "Annual precipitation": 941.83765
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2021,
+      "Annual precipitation": 1007.79236
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2022,
+      "Annual precipitation": 1045.1107
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2023,
+      "Annual precipitation": 1140.3507
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2024,
+      "Annual precipitation": 927.7366
+    },
+    {
+      "Entity": "Paraguay",
+      "Code": "PRY",
+      "Year": 2025,
+      "Annual precipitation": 1210.966
     }
   ]

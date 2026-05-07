@@ -1,4 +1,8 @@
-new Chart(ctx, {
+import loadData from './load_data.js';
+
+const homersVsPres = document.getElementById("shohei-chart");
+
+new Chart(homersVsPres, {
     type: 'bar',
     data: {
       labels: ["Trump", "Trump", "Trump", "Biden", "Biden", "Biden", "Biden", "Trump"],
@@ -16,5 +20,5 @@ new Chart(ctx, {
       }
     }
   });
+export default homersVsPres;
 
-  

@@ -1,18 +1,20 @@
 :root {
     --primary-color: #76a19d;
     --secondary-color: #1a5751;
-    --background-color: #f7f7f7;
+    --background-color: #ffffff;
     --card-background: #bf5454;
-    --text-color: #333;
+    --text-color: #005A9C;
     --border-color: #ddd;
     --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 body {
-    font-family: 'Trebuchet MS', monospace;
+    font-family: "futura", sans-serif;
     margin: 0;
     padding: 1rem;
     background: var(--background-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 * {
@@ -20,38 +22,177 @@ body {
     box-sizing: border-box;
 }
 
-section.section-one {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
+p {
+  margin: 0;
+  padding: 50px 0 50px 50px;
 }
 
-div.baseball-intro {
-    padding: 1.3rem;
-    background-color: rgb(215, 170, 215);
-    position: sticky;
-    top: 0;
-    height: 100vh;  
-    padding-top: 4rem;
+/* Blank sections fill the viewport */
+section.blank {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
 }
 
-.stats-text {
-    padding-bottom: 1rem;
-    padding-top: 2rem;
+section.blank:nth-of-type(odd) {
+  background-color: #f0f0f0;
 }
 
-.team-text {
-    padding-top: 100vh; /* i'm sorry this is so janky but i decided i'd figure out fade in if i had time so if you're reading this that means i did not*/
+section.blank:nth-of-type(even) {
+  background-color: #ffffff;
 }
 
-.stats-image {
-    max-width: 10px;
+section.horizontal {
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
-.section-two-intro {
-    padding-top: 20rem;
+/* overflow:hidden */
+section.horizontal .pin-wrap {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
+
+section.horizontal .animation-wrap {
+  display: flex;
+  height: 100vh;
+}
+
+.rainfall section {
+  position: relative;
+  padding: 1000px 1200px;
+  flex: 0 0 1000px;
+  height: calc(100vh - 300px);
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  user-select: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: transparent;
+}
+
+.container1 {
+  max-width: 800px;
+}
+
+.titletext {
+  padding: 50px 0 0 50px;
+}
+
+/* INTRO */
+
+section.intro-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* SECTION ONE RAINFALL */
+section.blank .section-one-copy {
+  height: 100vh
+}
+
+section.horizontal .item .rainfall-chart {
+  position: relative;
+  padding: 300px 120px;
+  flex: 0 0 1000px;
+  height: calc(100vh - 600px);
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  user-select: none;
+  border-right: 100px solid rgba(0, 0, 0, 0.06);
+  background-color: transparent;
+}
+
+section.horizontal .rainfall {
+  padding: 10vh 20vh 5vh;
+}
+
+/* SECTION TWO SHOHEI */
+
+section.horizontal .shohei {
+  flex: 0 0 1400px;
+  display: flex;
+  align-items: center;
+  padding: 5vh 5vw;
+  gap: 2rem;
+}
+
+section.horizontal .shohei .item {
+  flex: 0 0 400px;  /* fixed width, stops it from shrinking */
+  overflow: visible;
+}
+
+.section-two-image {
+  flex: 0 0 600px;
+}
+
+.section-two-image img {
+  width: 100%;
+  height: auto;
+}
+
+.section-two-chart {
+  flex: 0 0 800px;
+}
+
+/*    ANIMATION    */
+
+section.horizontal .animation-wrap.to-right {
+  counter-reset: item;
+  float: left;
+}
+
+section.horizontal .animation-wrap.to-left {
+  counter-reset: item 11;
+}
+
 /*
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+------
+
+
+section.horizontal .item:before {
+  position: absolute;
+  font-size: 100px;
+  opacity: .13;
+  font-weight: bold;
+  z-index: -1;
+  transform: translate(-30px, -50px);
+  line-height: 1;
+}
+
+section.horizontal .animation-wrap.to-right .item:before {
+  counter-increment: item;
+  content: counter(item);
+}
+
+section.horizontal .animation-wrap.to-left .item:before {
+  counter-increment: item -1;
+  content: counter(item);
+}
+
+section.horizontal .animation-wrap .item:nth-child(2n+2) {
+  align-items: flex-start;
+}
+
+section.horizontal .animation-wrap .item:nth-child(4n+4) {
+  align-items: flex-end;
+}
+
+
 div.stats {
     min-height: 100vh;
     opacity: 0;
@@ -72,5 +213,17 @@ div.stats {
 */
 
 
-
-
+/*
+section.section.rainfallcopy {
+  position: relative;
+  padding: 10px 120px;
+  flex: 0 0 800px;
+  height: calc(100vh - 300px);
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  user-select: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: transparent;
+}
+  */

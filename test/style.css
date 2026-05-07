@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px 0 0 50px;
+}
+
+p {
+  margin: 0;
+  padding: 50px 0 50px 50px;
+}
+
+/* Blank sections fill the viewport */
+section.blank {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+}
+
+section.blank:nth-of-type(odd) {
+  background-color: #f0f0f0;
+}
+
+section.blank:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+section.horizontal {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+/* overflow:hidden lives on pin-wrap, which is fine */
+section.horizontal .pin-wrap {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+section.horizontal .animation-wrap {
+  display: flex;
+  height: 100vh;
+}
+
+.rainfall section {
+  position: relative;
+  padding: 1000px 1200px;
+  flex: 0 0 1000px;
+  height: calc(100vh - 300px);
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  user-select: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: transparent;
+}
+/*
+section.section.rainfallcopy {
+  position: relative;
+  padding: 10px 120px;
+  flex: 0 0 800px;
+  height: calc(100vh - 300px);
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  user-select: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: transparent;
+}
+  */
+
+section.horizontal .item {
+  position: relative;
+  padding: 300px 120px;
+  flex: 0 0 1000px;
+  height: calc(100vh - 300px);
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
+  user-select: none;
+  border-right: 100px solid rgba(0, 0, 0, 0.06);
+  background-color: transparent;
+}
+/*
+section.horizontal .item:before {
+  position: absolute;
+  font-size: 100px;
+  opacity: .13;
+  font-weight: bold;
+  z-index: -1;
+  transform: translate(-30px, -50px);
+  line-height: 1;
+}
+*/
+section.horizontal .animation-wrap.to-right {
+  counter-reset: item;
+  float: left;
+}
+
+section.horizontal .animation-wrap.to-left {
+  counter-reset: item 11;
+  float: right;
+}
+/*
+section.horizontal .animation-wrap.to-right .item:before {
+  counter-increment: item;
+  content: counter(item);
+}
+
+section.horizontal .animation-wrap.to-left .item:before {
+  counter-increment: item -1;
+  content: counter(item);
+}
+*/
+section.horizontal .animation-wrap .item:nth-child(2n+2) {
+  align-items: flex-start;
+}
+
+section.horizontal .animation-wrap .item:nth-child(4n+4) {
+  align-items: flex-end;
+}
