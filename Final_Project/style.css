@@ -1,9 +1,9 @@
 :root {
     --primary-color: #76a19d;
     --secondary-color: #1a5751;
-    --background-color: #ffffff;
+    --background-color: #005A9C;
     --card-background: #bf5454;
-    --text-color: #005A9C;
+    --text-color: #ffffff;
     --border-color: #ddd;
     --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -11,10 +11,16 @@
 body {
     font-family: "futura", sans-serif;
     margin: 0;
-    padding: 1rem;
     background: var(--background-color);
     color: var(--text-color);
     overflow-x: hidden;
+    scrollbar-gutter: stable;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 * {
@@ -22,12 +28,68 @@ body {
     box-sizing: border-box;
 }
 
-p {
-  margin: 0;
-  padding: 50px 0 50px 50px;
+.chartContainer,
+.rainfall-chart,
+.section-two-chart,
+.section-two-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+/*Bi-Directional Scroll*/
+
+.horizontal {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  color: var(--background-color);
+}
+
+.pin-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.animation-wrap {
+  display: flex;
+  height: 100%;
+}
+
+.rainfall,
+.shohei {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 2rem;
+  flex-shrink: 0;
+}
+
+.item {
+  flex: 1;
+}
+
+.item h3,
+.item h4 {
+  max-width: 40ch;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
 }
 
 /* Blank sections fill the viewport */
+
+.site-header {
+  height: 60vh;
+}
+
 section.blank {
   width: 100%;
   height: 80vh;
@@ -43,29 +105,75 @@ section.blank:nth-of-type(even) {
   background-color: #ffffff;
 }
 
-section.horizontal {
-  width: 100%;
-  height: 100vh;
-  position: relative;
+.titletext {
+  padding: 50px 0 0 50px;
 }
 
-/* overflow:hidden */
-section.horizontal .pin-wrap {
+/* INTRO */
+
+.intro-image {
   width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* SECTION ONE RAINFALL */
+
+section.section-one-copy {
+  height: 100vh
+}
+
+
+/*TRANSITION*/
+
+.transitionbig {
+background-color: #005A9C;
+color: #ffffff;
+padding-left: 20vh;
+padding-top: 20vh;
+padding-bottom: 20vh;
+}
+
+
+
+/*SECTION TWO SHOHEI*/
+
+
+.pin-wrap {
   height: 100vh;
   overflow: hidden;
-  position: relative;
-  z-index: 1;
 }
 
-section.horizontal .animation-wrap {
+.animation-wrap {
   display: flex;
-  height: 100vh;
+  height: 100%;
 }
 
-.rainfall section {
+.rainfall,
+.shohei {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-shrink: 0;
+}
+/* 
+
+.rainfall-chart,
+.section-two-chart,
+.section-two-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rainfall {
   position: relative;
-  padding: 1000px 1200px;
+  padding: 8vh 8vw;
   flex: 0 0 1000px;
   height: calc(100vh - 300px);
   display: flex;
@@ -76,28 +184,7 @@ section.horizontal .animation-wrap {
   background-color: transparent;
 }
 
-.container1 {
-  max-width: 800px;
-}
-
-.titletext {
-  padding: 50px 0 0 50px;
-}
-
-/* INTRO */
-
-section.intro-image {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-
-/* SECTION ONE RAINFALL */
-section.blank .section-one-copy {
-  height: 100vh
-}
-
-section.horizontal .item .rainfall-chart {
+section.horizontal .shohei {
   position: relative;
   padding: 300px 120px;
   flex: 0 0 1000px;
@@ -110,11 +197,13 @@ section.horizontal .item .rainfall-chart {
   background-color: transparent;
 }
 
-section.horizontal .rainfall {
+section.horizontal .shohei {
   padding: 10vh 20vh 5vh;
 }
 
-/* SECTION TWO SHOHEI */
+
+
+
 
 section.horizontal .shohei {
   flex: 0 0 1400px;
@@ -125,7 +214,7 @@ section.horizontal .shohei {
 }
 
 section.horizontal .shohei .item {
-  flex: 0 0 400px;  /* fixed width, stops it from shrinking */
+  flex: 0 0 400px;  /* fixed width, stops it from shrinking 
   overflow: visible;
 }
 
@@ -140,7 +229,7 @@ section.horizontal .shohei .item {
 
 .section-two-chart {
   flex: 0 0 800px;
-}
+}*/
 
 /*    ANIMATION    */
 
